@@ -28,14 +28,15 @@ font-size:35px;
 letter-spacing:-4px;
 color:#FFFFFF;
 font-family:Century;
-margin-top:-30px;
+margin-top:-20px;
 font-weight:lighter;
 }
 h2{
 font-size:25px;
 letter-spacing:0px;
 color:#b0c223;
-font-family:Arial;
+font-family:Century;
+font-weight:lighter;
 }
 h3{
 font-size:20px;
@@ -56,16 +57,16 @@ top:-540px;
 right:15px;
 float:right;
 }
-p{
-font-size:15px;
+p.main{
+font-size:13px;
 color:#000000;
 font-family:Arial;
-line-height:30px;
+line-height:20px;
 }
 #info{
 border-left:1px #adaaad dotted;
 border-right:1px #adaaad dotted;
-width: 570px;
+width: 500px;
 height: 551px;
 position:relative;
 overflow:hidden;
@@ -73,7 +74,8 @@ position:relative;
 top:0px;
 left:20px;
 background:#FFFFFF;
-padding-left:10px;
+padding-left:30px;
+padding-right:30px;
 }
 a.meny, a.meny:visited{
 color:#FFFFFF;
@@ -133,7 +135,7 @@ height:150px;
 margin:auto;
 }
 #foot{
-width:1600px;
+width:3000px;
 height:100px;
 background:url('bilder/backgroundFoot.png');
 position:fixed;
